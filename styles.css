@@ -57,11 +57,11 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top: none;
-  padding: 10px;
+  padding: 2vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 15vw;
   background-color: #7a4795;
 }
 #banner-1 {
@@ -77,12 +77,21 @@ body {
 #cabecalho #navbar {
   display: flex;
   font-family: FiraSansMedium, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 1.5vw;
   align-content: center;
   align-items: center;
   justify-content: right;
   width: 50%;
 }
+#cabecalho #navbar a{
+  text-decoration: none;
+  color: white;
+}
+
+#cabecalho #navbar a:hover{
+  padding: 40px;
+}
+
 #navbar .navbar-item #fb-neovision{
   width: 40px;
   height: 40px;
@@ -122,6 +131,10 @@ body {
   background-color: #5b2482;
   font-size: 1vw;
 }
+.form-button:hover {
+  background-color: #321b5c;
+}
+
 #rodape {
   background-color: #321b5c;
   height: 50px;
@@ -130,6 +143,7 @@ body {
   align-items: center;
   color: white;
   font-size: 1.25vw;
+  border: 1px solid red;
 }
 
 .text-container {
