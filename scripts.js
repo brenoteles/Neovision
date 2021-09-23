@@ -16,10 +16,10 @@ $(document).ready(function() {
                 xhr.setRequestHeader("Authorization", $('#email').val());
             },
             success: function (data) {
-                alert("Enviado");
+                alert("Lhe enviaremos um e-mail com as novidades.");
             },
             error: function (jqXHR, textStatus, errorThrown) {
-        
+                alert("Infelizmente um erro ocorreu.");
             }
         });    
     }); 
