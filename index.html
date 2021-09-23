@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NeoVision</title>
+        <meta charset="UTF-8" />
+        
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="description" content="Neovision é um aplicativo mobile para reconhecimento por imagem de produtos e suas
+        características, através de inteligência artificial" />
+        <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+        <script src="scripts.js"></script> 
+        
+    </head>
+    <body>
+        <article id="area-1">
+
+            <header id="cabecalho">
+                <nav id="cabecalho-conteudo">
+                    <figure id="figure-logo">
+                        <img id = "logo" src="./assets/logo.png" alt="Neovision"/>
+                    </figure>
+    
+                    <nav id="navbar">
+                        <div class="navbar-item">
+                            <a>funcionalidades</a>
+                        </div>
+    
+                        <div class="navbar-item">
+                            <a>contato</a>
+                        </div>
+    
+                        <div class="navbar-item">
+                            <a><img id="fb-neovision" alt="Facebook Neovision" src="./assets/fb_logo.svg"/></a>
+                        </div>
+                    </nav>
+                </nav>
+            </header>
+
+            <img id="banner-1" alt="Reconhecimento de Texto com Inteligência Artificial" src="./assets/banner_1.svg"/>
+
+            
+        </article>
+
+        <main id="area-2">
+            
+            <div class="text-container conteudo-pagina">
+                <h1 class="titulo">Neovision</h1>
+                
+                <p class="paragrafo">
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria
+                    tipográfica e de impressos, e vem sendo utilizado deste o século XVI,
+                    quando um impressor desconhecido pegou uma bandeja de tipos e os
+                    embaralhou para fazer um livro de modelos de tipos.
+                </p>
+                
+                <p class="paragrafo">
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria
+                    tipográfica e de impressos, e vem sendo utilizado deste o século XVI,
+                    quando um impressor desconhecido pegou uma bandeja de tipos e os
+                    embaralhou para fazer um livro de modelos de tipos.
+                </p>
+                
+            </div>
+
+            <img id="banner-2" alt="Scanner" src="./assets/banner_2.svg"/>
+                
+            <ul id="lista-funcionalidades" class="conteudo-pagina">
+                <li>Funcionalidade 1</li>
+                <li>Funcionalidade 2</li>
+                <li>Funcionalidade 3</li>
+            </ul> 
+
+        </main>
+
+        <article id="area-3"> 
+            <p id ="form-titulo" class="conteudo-pagina">Quer conhecer mais sobre a Neovision?</p>
+
+            <form id="neovision-form" class="conteudo-pagina" action="" method="POST">
+                <input id="nome" minlength="4" name="nome" type="text" class="form-input" placeholder="Nome" required />
+                <input id="email" minlength="4" value="teste@teste.com" name="email" type="email" class="form-input" placeholder="E-mail" required >
+                <button id="botao-enviar">Enviar</button>
+            </form>
+        </article>
+        
+        <footer id="rodape">
+            <p>©2019 - Neovision. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
